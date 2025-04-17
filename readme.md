@@ -1,4 +1,4 @@
-<a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=CHARLESKE-VMD created+by+Charleske+FORK+ME+AND+ENJOY💥✅" alt="Typing SVG" /><
+<a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=CHARLESKE-VMD created+by+Charleske+FORK+ME+AND+ENJOY" alt="Typing SVG" /><
 </p>
 
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=EB+Red&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+CHARLES-KE+VMD;Created+by+CHARLES KE;Fork+Me+and+Enjoy❤️!" alt="Typing SVG" />
