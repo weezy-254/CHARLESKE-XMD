@@ -1,8 +1,6 @@
-<a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=100&lines=CHARLESKE-VMD" alt="Typing SVG" /><
+<a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=100&lines=CHARLESKE-VMD🇰🇪" alt="Typing SVG" /><
 </p>
 
-<p align="center"><img src="https://gig.io/typing-svg.demolab.com?font=EB+Red&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+CHARLESKE+VMD;Created+by+CHARLES KE;Fork+Me+and+Enjoy!" alt="Typing SVG" /><
-</p> 
 
 
 <p align="center">  
@@ -21,11 +19,12 @@
   <a href="https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y"><img title="Channel" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> 
   <a href="https://wa.me/254759626063"><img title="Chat" src="https://img.shields.io/badge/CHAT US-neon?style=for-the-badge&logo=whatsapp"></a>
 </p>
-
+<a href='https://https://github.com/Charleskenya1/CHARLESKE/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<p align="center">
 <p align="center">
   <a href="https://github.com/charleskenya1?tab=followers"><img title="1000Followers" src="https://img.shields.io/github/followers/charleskenya1?label=Followers&style=social"></a>
   <a href="https://github.com/charleskenya1/BMW-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/charleskenya1/BMW-MD?&style=social"></a>
-  <a href="https://github.com/charleske/BMW-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/charleskenya1CHARLESKE/BMW-MD?style=social"></a>
+  <a href="https://github.com/charleske/BMW-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks=2000/charleskenya1CHARLESKE/BMW-MD?style=social"></a>
   <a href="https://github.com/charleskenya1/BMW-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/charleskenya1/BMW-MD?label=Watching&style=social"></a>
 </p>
 
