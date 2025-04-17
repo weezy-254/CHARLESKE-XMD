@@ -1,7 +1,5 @@
 <a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=100&lines=CHARLESKE-VMD" alt="Typing SVG" /><
 
-
-
 <p align="center">  
   <a href="https://files.catbox.moe/n6dmx3.jpeg">
     <img alt="secktor docs" height="300" src="https://files.catbox.moe/n6dmx3.jpeg">
