@@ -53,7 +53,7 @@ commands.forEach((command) => {
 
         const currentTime = moment().format('DD/MM/YYYY HH:mm:ss');
         const infoMessage = `
-🌐 *GitHub Repository Info* 🌐
+🌐 *GitHub Repository Info* 💥🌐
 
 💻 *Name:* ${name}
 📜 *Description:* ${description}
@@ -71,7 +71,7 @@ commands.forEach((command) => {
             // Send the follow-up image first with a caption
             await zk.sendMessage(dest, {
                 image: { url: "https://files.catbox.moe/xx6ags.jpeg" }, // Updated image
-                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Charles Kenya*\n📢 Stay updated\nhttps://chat.whatsapp.com/I81wIoCXL4JJGfwnXcxEvx\n\nRepo Url\nhttps://github.com/Charleskenya1/CHARLESKE`,
+                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Charles Kenya*\n📢 Stay updated\nhttps://chat.whatsapp.com/EFh0BWKa0Uf92A7RgBwpuu\n\nRepo Url\nhttps://github.com/Charleskenya1/CHARLESKE`,
             });
 
             // Follow up with the GitHub repository details
