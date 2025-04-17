@@ -1,7 +1,8 @@
-<a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=2000&height=300&lines=CHARLESKE-VMD" alt="Typing SVG" /><
+<a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=100&lines=CHARLESKE-VMD" alt="Typing SVG" /><
 </p>
 
-<a align="center"><img src="https://readme-typing-svg.demolab.com?font=EB+Red&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+CHARLES-KE+VMD;Created+by+CHARLES KE;Fork+Me+and+Enjoy!" alt="Typing SVG" /></p> 
+<p align="center"><img src="https://gig.io/typing-svg.demolab.com?font=EB+Red&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+CHARLESKE+VMD;Created+by+CHARLES KE;Fork+Me+and+Enjoy!" alt="Typing SVG" /><
+</p> 
 
 
 <p align="center">  
