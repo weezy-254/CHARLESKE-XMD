@@ -1,6 +1,6 @@
 {
   "name":"CHARLESKE-VMD",
-  "description":"Best whatsapp bot developed by Charles ke",
+  "description":"Best whatsapp bot💥 developed by Charles ke",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
   "repository":"https://github.com/ekitale/maths-project",
@@ -45,8 +45,8 @@
 "AUTO_REACT_STATUS":
     {
       "description":"Enter yes for your bot to auto like status",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required":true
     },
      "PM_PERMIT" :
      {
@@ -119,7 +119,7 @@
     "value": "yes"
   },
   "PRESENCE":{
-    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "description":"Mark your presence: 1 for online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
     "value":"",
     "required": false
   },
