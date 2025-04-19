@@ -33,13 +33,13 @@
   "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 "ANTICALL":
     {
       "description":"Enter yes for your bot to auto reject calls",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 "AUTO_REACT_STATUS":
@@ -58,7 +58,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐊𝐄",
+      "value":"𝐂𝐇𝐀𝐑𝐋𝐄𝐒𝐊𝐄-VMD",
       "required":false
 
     } ,
@@ -81,8 +81,8 @@
      "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
+    "description": "insert your heroku APP NAME (put the name you put on top)",
+     "required" :true
     }  
 	  ,
     "SESSION_ID":
@@ -126,7 +126,7 @@
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
-        "required": false
+        "required": true
   }
   },
 
