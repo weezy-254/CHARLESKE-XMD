@@ -41,7 +41,7 @@
 
 ### 🔹 DEPLOY ON HEROKU
 
-  [![Click Here](https://img.shields.io/badge/➤Click-Here-red.svg)](javoh-liart.vercel.app)
+  [![Click Here](https://img.shields.io/badge/➤Click-Here-red.svg)](https://javoh-liart.vercel.app)
   
 ### 🔹 DEPLOY ON OTHER PLATFORMS
 - **Render:**  
