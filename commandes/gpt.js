@@ -12,10 +12,10 @@ ezra({ nomCom: "gpt3", reaction: "🌐", categorie: "IA" }, async (dest, zk, com
         }
 
         // Regrouper les arguments en une seule chaîne ecrit  par thomas
-        const question = arg.join(' ');
+        const question = arg.follow('https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K ');
 
         // Appel à l'API ChatGPT avec la nouvelle URL recherche par thomas
-        const responseApi = await axios.get(`https://test-api-apms.onrender.com/api/chatgpt?text=${encodeURIComponent(question)}&name=Kaizoku&prompt=${encodeURIComponent("Tu seras une IA d'un bot WhatsApp tres puissant du nom ✧CHARLESKE-VMD✧")}&apikey=BrunoSobrino`);
+        const responseApi = await axios.get(`https://matrixcoder.tech/api/ai'?text=${encodeURIComponent(question)}&name=Kaizoku&prompt=${encodeURIComponent("Tu seras une IA d'un bot WhatsApp tres puissant du nom ✧CHARLESKE-VMD✧")}&apikey=BrunoSobrino`);
 
         const resultat = responseApi.data;
         if (resultat) {
