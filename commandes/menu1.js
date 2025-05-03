@@ -1,16 +1,16 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { ezra } = require(__dirname + "/../fredi/ezra");
-const { format } = require(__dirname + "/../fredi/mesfonctions");
+const { ezra } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
 
-ezra({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu1", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
-    let { cm } = require(__dirname + "/../fredi/ezra");
+    let { cm } = require(__dirname + "/../framework/zokou");
     let coms = {};
     let mode = "public";
 
