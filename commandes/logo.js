@@ -1,6 +1,6 @@
-const { ezra } = require("../fredi/ezra");
+const { zokou } = require("../framework/zokou");
 var mumaker = require("mumaker");
-ezra({ nomCom: "hacker",
+zokou({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
@@ -21,7 +21,7 @@ ezra({ nomCom: "hacker",
         repondre("🥵🥵 " + e);
     }
 });
-ezra({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
     try {
         const noArgMsg = `*_EXEMPLE *:  ${prefixe}dragonball Fredi`;
@@ -46,7 +46,7 @@ ezra({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest,
     }
 });
 ////////////////////////////
-ezra({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, commandeOptions) => {
     let { ms, arg, repondre, prefixe } = commandeOptions;
     try {
         if (!arg || arg == '') {
@@ -88,7 +88,7 @@ ezra({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk, 
 */
 
 
-ezra({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
    try {
      var titre = "\t* logo by Lucky_Md*";
@@ -111,7 +111,7 @@ ezra({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk,
 );
 
 
-ezra({nomCom : "wall",categorie : "Logo",reaction : "👍"} , async (dest,zk,commandeOptions) =>{
+zokou({nomCom : "wall",categorie : "Logo",reaction : "👍"} , async (dest,zk,commandeOptions) =>{
 
   const {arg,repondre,ms,prefixe} = commandeOptions;
   if(!arg[0]) { repondre( `Exemple of using commande:\n ${prefixe}wall Lucky_Md` ); return ;}
@@ -123,7 +123,7 @@ ezra({nomCom : "wall",categorie : "Logo",reaction : "👍"} , async (dest,zk,com
 .catch(console.log)
 })
 ;
-ezra({nomCom: "summer", categorie: "Logo", reaction: "🌞"}, async (dest, zk, commandeOptions) => {
+zokou({nomCom: "summer", categorie: "Logo", reaction: "🌞"}, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}summer My text`);
@@ -138,7 +138,7 @@ ezra({nomCom: "summer", categorie: "Logo", reaction: "🌞"}, async (dest, zk, c
     .catch(console.error);
 });
 
-ezra({nomCom: "neonlight", categorie: "Logo", reaction: "💡"}, async (dest, zk, commandeOptions) => {
+zokou({nomCom: "neonlight", categorie: "Logo", reaction: "💡"}, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms, prefixe } = commandeOptions;
   /*if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}neonlight My text`);
@@ -165,7 +165,7 @@ ezra({nomCom: "neonlight", categorie: "Logo", reaction: "💡"}, async (dest, zk
 
 });
 
-ezra({nomCom: "greenneon", categorie: "Logo", reaction: "🟢"}, async (dest, zk, commandeOptions) => {
+zokou({nomCom: "greenneon", categorie: "Logo", reaction: "🟢"}, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}greenneon My text`);
@@ -180,7 +180,7 @@ ezra({nomCom: "greenneon", categorie: "Logo", reaction: "🟢"}, async (dest, zk
     .catch(console.error);
 });
 
-ezra({nomCom: "glitch", categorie: "Logo", reaction: "🎛️"}, async (dest, zk, commandeOptions) => {
+zokou({nomCom: "glitch", categorie: "Logo", reaction: "🎛️"}, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}glitch My text`);
@@ -195,7 +195,7 @@ ezra({nomCom: "glitch", categorie: "Logo", reaction: "🎛️"}, async (dest, zk
     .catch(console.error);
 });
 
-ezra({nomCom: "devil", categorie: "Logo", reaction: "😈"}, async (dest, zk, commandeOptions) => {
+zokou({nomCom: "devil", categorie: "Logo", reaction: "😈"}, async (dest, zk, commandeOptions) => {
   const { arg, repondre, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}devil My text`);
@@ -210,7 +210,7 @@ ezra({nomCom: "devil", categorie: "Logo", reaction: "😈"}, async (dest, zk, co
     .catch(console.error);
 });
 ////////////////////
-ezra(
+zokou(
   {nomCom:"boomlg",categorie:
     "Logo",reaction:"💥"},async(dest,zk,commandeOptions)=>{
 
@@ -253,7 +253,7 @@ repondre("  processing ...")
     }
 )
 //water
-ezra({nomCom:"water",categorie:"Logo",reation:"💦"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"water",categorie:"Logo",reation:"💦"},async(dest,zk,commandeOptions)=>{
 
   
 var {ms,repondre,arg,prefixe}=commandeOptions;
@@ -271,7 +271,7 @@ var {ms,repondre,arg,prefixe}=commandeOptions;
 
 });
 
-ezra({ nomCom: "snow", categorie: "Logo", reaction: "❄️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "snow", categorie: "Logo", reaction: "❄️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}Snow My text`);
@@ -288,7 +288,7 @@ ezra({ nomCom: "snow", categorie: "Logo", reaction: "❄️" }, async (dest, zk,
     });
 });
 
-ezra({ nomCom: "transformer", categorie: "Logo", reaction: "🤖" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "transformer", categorie: "Logo", reaction: "🤖" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}Transformer My text`);
@@ -305,7 +305,7 @@ ezra({ nomCom: "transformer", categorie: "Logo", reaction: "🤖" }, async (dest
     });
 });
 
-ezra({ nomCom: "thunder", categorie: "Logo", reaction: "⚡" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "thunder", categorie: "Logo", reaction: "⚡" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}Thunder My text`);
@@ -322,7 +322,7 @@ ezra({ nomCom: "thunder", categorie: "Logo", reaction: "⚡" }, async (dest, zk,
     });
 });
 
-ezra({ nomCom: "harrypotter", categorie: "Logo", reaction: "🧙‍♂️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "harrypotter", categorie: "Logo", reaction: "🧙‍♂️" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}HarryPotter My text`);
@@ -339,7 +339,7 @@ ezra({ nomCom: "harrypotter", categorie: "Logo", reaction: "🧙‍♂️" }, as
     });
 });
 
-ezra({ nomCom: "cat", categorie: "Logo", reaction: "🪟" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "cat", categorie: "Logo", reaction: "🪟" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}FoggyWindow My text`);
@@ -358,7 +358,7 @@ ezra({ nomCom: "cat", categorie: "Logo", reaction: "🪟" }, async (dest, zk, co
 
                                                                          
 
-ezra({ nomCom: "whitegold", categorie: "Logo", reaction: "💫" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "whitegold", categorie: "Logo", reaction: "💫" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}WhiteGold My text`);
@@ -375,7 +375,7 @@ ezra({ nomCom: "whitegold", categorie: "Logo", reaction: "💫" }, async (dest, 
     });
 });
 
-ezra({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}LightGlow My text`);
@@ -392,7 +392,7 @@ ezra({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest, 
     });
 });
 
-ezra({ nomCom: "thor", categorie: "Logo", reaction: "🔨" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "thor", categorie: "Logo", reaction: "🔨" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}Thor My text`);
@@ -409,7 +409,7 @@ ezra({ nomCom: "thor", categorie: "Logo", reaction: "🔨" }, async (dest, zk, c
     });
 });
 
-ezra({ nomCom: "neon", categorie: "Logo", reaction: "💡" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "neon", categorie: "Logo", reaction: "💡" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`Exemple of using commande:\n ${prefixe}Neon My text`);
@@ -428,7 +428,7 @@ ezra({ nomCom: "neon", categorie: "Logo", reaction: "💡" }, async (dest, zk, c
 
 
 
-ezra({nomCom:"purple",categorie:"Logo",reaction:"🧳"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"purple",categorie:"Logo",reaction:"🧳"},async(dest,zk,commandeOptions)=>{
   var {ms,repondre,prefixe,arg}=commandeOptions;
   
     try{
@@ -443,7 +443,7 @@ ezra({nomCom:"purple",categorie:"Logo",reaction:"🧳"},async(dest,zk,commandeOp
   
 })
 
-ezra({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,zk,commandeOptions)=>{
 
 
   let {ms,arg,prefixe,repondre}=commandeOptions;
@@ -462,7 +462,7 @@ ezra({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,zk
 })
 
 
-ezra({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOptions)=>{
 
 
   let {ms,arg,prefixe,repondre}=commandeOptions;
@@ -480,7 +480,7 @@ ezra({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOpt
   }catch(e){repondre(e)}
 })
 
-ezra({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,commandeOptions)=>{
 
 
   let {ms,arg,prefixe,repondre}=commandeOptions;
@@ -498,7 +498,7 @@ ezra({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,comm
   } catch(e){repondre(e)}
 })
 
-ezra({ nomCom: "gif×1", categorie: "Logo", reaction: "😋" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "gif×1", categorie: "Logo", reaction: "😋" }, async (dest, zk, commandeOptions) => {
   let { ms, arg, prefixe, repondre } = commandeOptions;
   try {
     if (!arg || arg === "") {
