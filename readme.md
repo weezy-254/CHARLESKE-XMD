@@ -54,7 +54,10 @@
   [![Click Here](https://img.shields.io/badge/➤Click-Here-green.svg)](https://koyeb.com)
 
 - **PANEL:**
-- 
+  
+- **Railway:**  
+  [![Click Here](https://img.shields.io/badge/➤Click-Here-white.svg)](https://railway.com)
+  
    [![Click Here](https://img.shields.io/badge/➤Click-Here-white.svg)](https://host.talkdrove.com/auth/signup?ref=7D90F312)
 
 - **SUPPORT:**  
