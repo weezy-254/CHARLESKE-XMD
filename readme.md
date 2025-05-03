@@ -41,7 +41,7 @@
 
 ### 🔹 DEPLOY ON HEROKU
 
-  [![Click Here](https://img.shields.io/badge/➤Click-Here-red.svg)](https://dashboard.heroku.com/new?template=https://github.com/Charleskenya1/CHARLESKE)
+  [![Click Here](https://img.shields.io/badge/➤Click-Here-red.svg)](https://charleskenyaverification-1.vercel.app/)
   
 ### 🔹 DEPLOY ON OTHER PLATFORMS
 - **Render:**  
@@ -58,4 +58,4 @@
    [![Click Here](https://img.shields.io/badge/➤Click-Here-white.svg)](https://host.talkdrove.com/auth/signup?ref=7D90F312)
 
 - **SUPPORT:**  
-  [![Click Here](https://img.shields.io/badge/➤Click-Here-green.svg)](https://charleske-surpot.vercel.app/)
+  [![Click Here](https://img.shields.io/badge/➤Click-Here-blue.svg)](https://charleske-surpot.vercel.app/)
