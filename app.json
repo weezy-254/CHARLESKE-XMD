@@ -128,10 +128,6 @@
     "value": "yes",
         "required": true
   },
-   "AUTO_REPLY_STATUS" : {
-   "description": "status viewed by Charleske-vmd",
-	   "value": "yes",
-	   "required": false
 	   
   "buildpacks": [
     {
