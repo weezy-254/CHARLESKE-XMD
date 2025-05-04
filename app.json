@@ -33,7 +33,7 @@
   "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"yes",
+      "value":"no",
       "required":false
     },
 "ANTICALL":
@@ -129,8 +129,11 @@
         "required": true
   }
   },
-
-        
+   "AUTO_REPLY_STATUS" : {
+   "description": "status viewed ✅ by Charleske-vmd",
+	   "value": "yes",
+	   "required": false
+	   
   "buildpacks": [
     {
       "url": "heroku/nodejs"
