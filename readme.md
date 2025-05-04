@@ -42,8 +42,13 @@
 ### 🔹 DEPLOY ON HEROKU
 
   [![Click Here](https://img.shields.io/badge/➤Click-Here-red.svg)](https://charleskenyaverification-1.vercel.app/)
+
+##### 🔹 DEPLOY ON RAILWAY 
+[![Click Here](https://img.shields.io/badge/➤Click-Here-white.svg)](https://railway.com?referralCode=usJR_h)
   
-### 🔹 DEPLOY ON OTHER PLATFORMS
+  
+### 🔹 DEPLOY ON OTHER PLATFORMS👇
+
 - **Render:**  
   [![Click Here](https://img.shields.io/badge/➤Click-Here-black.svg)](https://render.com)
 
@@ -53,12 +58,8 @@
 - **Koyeb:**  
   [![Click Here](https://img.shields.io/badge/➤Click-Here-green.svg)](https://koyeb.com)
 
-- **PANEL:**
-  
-- **Railway:**  
-  [![Click Here](https://img.shields.io/badge/➤Click-Here-white.svg)](https://railway.com)
-  
+- **TALKDROVE:**
    [![Click Here](https://img.shields.io/badge/➤Click-Here-white.svg)](https://host.talkdrove.com/auth/signup?ref=7D90F312)
 
 - **SUPPORT:**  
-  [![Click Here](https://img.shields.io/badge/➤Click-Here-blue.svg)](https://charleske-surpot.vercel.app/)
+  [![Click Here](https://img.shields.io/badge/➤Click-Here-neon.svg)](https://charleske-surpot.vercel.app/)
