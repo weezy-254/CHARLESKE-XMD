@@ -127,10 +127,9 @@
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
         "required": true
-  }
   },
    "AUTO_REPLY_STATUS" : {
-   "description": "status viewed ✅ by Charleske-vmd",
+   "description": "status viewed by Charleske-vmd",
 	   "value": "yes",
 	   "required": false
 	   
