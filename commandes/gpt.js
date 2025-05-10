@@ -3,9 +3,9 @@ const traduire = require("../framework/traduction") ;
 const { default: axios } = require('axios');
 const fs = require('fs');
 const pkg = require('@whiskeysockets/baileys');
-const { generateWAMessageFromContent, proto } = charlesg;
+const { generateWAMessageFromContent, proto } = pkg;
 
-zokou({ nomCom: "Charleskegpt", reaction: "🪅", categorie: "Charleskeai" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "pkgpt", reaction: "🪅", categorie: "pkai" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
@@ -36,7 +36,7 @@ zokou({ nomCom: "Charleskegpt", reaction: "🪅", categorie: "Charleskeai" }, as
                 text: answer
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "> *CHARLESKE-VMD-BOT*"
+                text: "> *NEXUS-AI*"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 title: "",
