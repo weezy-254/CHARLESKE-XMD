@@ -5,7 +5,7 @@ const fs = require('fs');
 const pkg = require('@whiskeysockets/baileys');
 const { generateWAMessageFromContent, proto } = pkg;
 
-zokou({ nomCom: "gpt", reaction: "🪅", categorie: "pkai" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "gpt7", reaction: "🪅", categorie: "pkai" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
