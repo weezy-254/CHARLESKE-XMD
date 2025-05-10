@@ -96,6 +96,6 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("THANK YOU FOR CHOOSING CHARLESKE-VMD, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://https://chat.whatsapp.com/EFh0BWKa0Uf92A7RgBwpuu] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@charles_odhiambo_official?si=n6lKIy2ViQauVS_n] \n\n\n𝑪𝒓𝒆ated by Charles ke") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BMW-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CHARLESKE-VMD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
