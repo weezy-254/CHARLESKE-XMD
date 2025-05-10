@@ -10,7 +10,7 @@ cmd({
     use: '.menu2',
     desc: "Show all bot commands",
     category: "menu",
-    react: "📜",
+    react: "🔥",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈╭─────────────────·๏
 ┃◈┃• 👑 Owner : *${config.OWNER_NAME}*
 ┃◈┃• ⚙️ Prefix : *[${config.PREFIX}]*
-┃◈┃• 🌐 Platform : *Heroku*
+┃◈┃• 🌐 Platform : *Process*
 ┃◈┃• 📦 Version : *4.0.0*
 ┃◈┃• ⏱️ Runtime : *${runtime(process.uptime())}*
 ┃◈╰─────────────────┈⊷
@@ -344,14 +344,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/7zfdcq.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/n6dmx3.jpeg' },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
+                        newsletterJid: '@newsletter',
                         newsletterName: config.BOT_NAME,
                         serverMessageId: 143
                     }
