@@ -13,7 +13,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
         if (!q) return reply("Please provide a message for the AI.\nExample: `.ai Hello`");
 
-        const apiUrl = `https://lance-frank-asta.onrender.com/api/gpt?q=${encodeURIComponent(q)}`;
+        const apiUrl = `https://api.siputzx.my.id/api/ai/deepseek-llm-67b-chat?content=${encodeURIComponent(q)}`;
         const { data } = await axios.get(apiUrl);
 
         if (!data || !data.message) {
@@ -32,10 +32,10 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
 
 cmd({
     pattern: "openai",
-    alias: ["chatgpt", "gpt3", "open-gpt"],
+    alias: ["chatgpt", "gpt4", "open-gpt"],
     desc: "Chat with OpenAI",
     category: "ai",
-    react: "🧠",
+    react: "💡",
     filename: __filename
 },
 async (conn, mek, m, { from, args, q, reply, react }) => {
@@ -71,7 +71,7 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     try {
         if (!q) return reply("Please provide a message for DeepSeek AI.\nExample: `.deepseek Hello`");
 
-        const apiUrl = `https://api.ryzendesu.vip/api/ai/deepseek?text=${encodeURIComponent(q)}`;
+        const apiUrl = `https://api.siputzx.my.id/api/ai/deepseek-llm-67b-chat?content=${encodeURIComponent(q)}`;
         const { data } = await axios.get(apiUrl);
 
         if (!data || !data.answer) {
