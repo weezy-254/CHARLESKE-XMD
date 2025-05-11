@@ -191,7 +191,7 @@ zokou({
   let _0x115598 = _0x254221.map(_0x6b0f9 => _0x6b0f9.id);
   await _0xb269b7("*CHARLESKE is sending this message to all groups you are in*...");
   for (let _0x398282 of _0x115598) {
-    let _0x25a35f = "𝚓𝚊𝚖𝚎𝚜 𝚖𝚍\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
+    let _0x25a35f = "Charleske-vmd\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
     await _0x4cdb8c.sendMessage(_0x398282, {
       'image': {
         'url': "https://files.catbox.moe/kqqtnz.jpeg"
