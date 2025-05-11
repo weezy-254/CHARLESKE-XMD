@@ -36,7 +36,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃ ⏳ ᵀⁱᵐᵉ: *${temps}*
 ┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
 ┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
-┃ 👑 ᴼʷⁿᵉʳ: *Pkdriller*
+┃ 👑 ᴼʷⁿᵉʳ: *Charleskenya1*
 ╰━━━━━━━━━━━━━⬣
 
 ${readMore}
