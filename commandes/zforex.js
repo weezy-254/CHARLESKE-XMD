@@ -19,7 +19,7 @@ const axios = require('axios');
 const { zokou } = require('../framework/zokou');
 
 zokou({
-  nomCom: "currencylist",
+  nomCom: "currencymenu",
   aliases: ["currencies", "conversionrates"],
   reaction: '💲',
   categorie: "trade-place"
