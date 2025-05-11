@@ -7,7 +7,7 @@ const {zokou}=require("../framework/zokou")
 
 
 
-zokou({nomCom:"reboot",categorie:"Mods",reaction:"👨🏿‍💼"},async(dest,z,com)=>{
+zokou({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
 
 
   
@@ -20,7 +20,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("*restarting ...*");
+    repondre("CHARLES-VMD bot Restarting be cool.Thanks for choosing toxic lover-md⏳");
 
   exec("pm2 restart all");
   
