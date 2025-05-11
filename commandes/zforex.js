@@ -5,7 +5,7 @@ Code
 Pull requests
 Actions
 Projects
-CHharleske-vmd/charleskenyaq
+Charleske-vmd/charleskenya1
 /zforex.js
 Charleskenya1
 Charleskenya1
