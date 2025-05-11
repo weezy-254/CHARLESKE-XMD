@@ -24,39 +24,39 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
-    let infoMsg = `📊 *Hello ${nomAuteurMessage}!* 📊
-━━━━━━━━━━━━━━━━━━━━
-🚀 *BOT NAME:* 𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐊𝐄  
-━━━━━━━━━━━━━━━━━━━━
-🌍 *SYSTEM INFO:*
-💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-━━━━━━━━━━━━━━━━━━━━
-⚙️ *BOT STATUS:*
-⭕ ᴍᴏᴅᴇ: *${mode}*
-💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
-⏳ ᴛɪᴍᴇ: ${temps}
-📆 ᴅᴀᴛᴇ: ${date}
-━━━━━━━━━━━━━━━━━━━━
-📢 *𝐂𝐇𝐀𝐍𝐍𝐄𝐋𝐒 & 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐎𝐍𝐒:*  
-  
-📢 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 CHANEL:  
-🔗 https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K    
-━━━━━━━━━━━━━━━━━━━━
+    let infoMsg = `╭━━━━━━━━━━━━━⬣
+┃ 💀 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
+┃━━━━━━━━━━━━━⬣
+┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE-VMD*
+┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
+┃ 📳 ᴹᵒᵈᵉ: *🌍 ${mode}*
+┃ ⌨ ᴾʳᵉᶠⁱˣ: *[ ${prefixe} ]*
+┃ 💻 ᴾˡᵃᵗᶠᵒʳᵐ: *${os.platform()}*
+┃ 📅 ᴰᵃᵗᵉ: *${date}*
+┃ ⏳ ᵀⁱᵐᵉ: *${temps}*
+┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
+┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
+┃ 👑 ᴼʷⁿᵉʳ: *Pkdriller*
+╰━━━━━━━━━━━━━⬣
+
 ${readMore}
-📜 *COMMANDS MENU* 📜
+🛠 *Available Commands* 🛠
 ━━━━━━━━━━━━━━━━━━━━\n`;
 
     let menuMsg = ``;
 
     for (const cat in coms) {
-        menuMsg += `🔹 *${cat.toUpperCase()}* 🔹\n`;
-        for (const cmd of coms[cat]) {
-            menuMsg += `   🔸 ${cmd}\n`;
+        menuMsg += `⭐ *${cat.toUpperCase()}*\n`;
+        // Group commands in pairs for better display
+        for (let i = 0; i < coms[cat].length; i += 2) {
+            const cmd1 = coms[cat][i] || '';
+            const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
+            menuMsg += `➤ .${cmd1} ${cmd2}\n`;
         }
         menuMsg += `━━━━━━━━━━━━━━━━━━━━\n`;
     }
 
-    menuMsg += `✨ *𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐊𝐄 𝐁𝐎𝐓 - 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒅 𝒃𝒚 Charles ke* ✨`;
+    menuMsg += `🌙 Good night! Sleep well and recharge! 😴`;
 
     let imageUrl = "https://files.catbox.moe/n6dmx3.jpeg";
 
@@ -64,7 +64,7 @@ ${readMore}
         zk.sendMessage(dest, { 
             image: { url: imageUrl }, 
             caption: infoMsg + menuMsg, 
-            footer: "© Charles KE" 
+            footer: "© CHARLESKE-VMD" 
         }, { quoted: ms });
     } catch (e) {
         console.log("🥵 Menu error: " + e);
