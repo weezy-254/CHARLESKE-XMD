@@ -189,12 +189,12 @@ zokou({
   let _0x52c320 = await _0x4cdb8c.groupFetchAllParticipating();
   let _0x254221 = Object.entries(_0x52c320).slice(0x0).map(_0x35bfa1 => _0x35bfa1[0x1]);
   let _0x115598 = _0x254221.map(_0x6b0f9 => _0x6b0f9.id);
-  await _0xb269b7("*NEXUS-AI is sending this message to all groups you are in*...");
+  await _0xb269b7("*CHARLESKE is sending this message to all groups you are in*...");
   for (let _0x398282 of _0x115598) {
     let _0x25a35f = "𝚓𝚊𝚖𝚎𝚜 𝚖𝚍\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
     await _0x4cdb8c.sendMessage(_0x398282, {
       'image': {
-        'url': "https://files.catbox.moe/ziyoyl.jpg"
+        'url': "https://files.catbox.moe/kqqtnz.jpeg"
       },
       'caption': '' + _0x25a35f
     });
@@ -420,7 +420,7 @@ zokou({
   }
   ;
   await _0x445664.groupToggleEphemeral(_0x5c9d47, 0x15180);
-  _0x5c9d47("Dissapearing messages successfully turned on for 24 hours");
+  _0x5c9d47("Dissapearing messages successfully turned on for 48 hours");
 });
 
 zokou({
@@ -489,7 +489,7 @@ zokou({
       'document': _0x511dab.readFileSync("./contacts.vcf"),
       'mimetype': "text/vcard",
       'fileName': _0x38463f.subject + '.Vcf',
-      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 Nexus-ai *"
+      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 Charleske-vmd *"
     }, {
       'ephemeralExpiration': 0x15180,
       'quoted': _0x48a83b
@@ -505,7 +505,7 @@ zokou({
   'nomCom': 'invite',
   'aliases': ["link"],
   'categorie': 'Group',
-  'reaction': '🪄'
+  'reaction': '☠️'
 }, async (_0x5b6e86, _0x75673b, _0x387b7e) => {
   const {
     repondre: _0x89d41d,
@@ -659,7 +659,7 @@ zokou({
               _0x71952("The only actions available are `warn`, `remove`, and `delete`.");
             }
           } else {
-            _0x71952("Type `antilink-all on` to activate the antilink-all feature\nor `antilink-all off` to deactivate the antilink-all feature\nor `antilink-all action/remove` to directly remove the link without notice\nor `antilink-all action/warn` to give warnings\nor `antilink-all action/delete` to remove the link without any sanctions\n\nPlease note that by default, the antilink-all feature is set to delete.\n\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝙹𝙰𝙼𝙴𝚂 𝙼𝙳*");
+            _0x71952("Type `antilink-all on` to activate the antilink-all feature\nor `antilink-all off` to deactivate the antilink-all feature\nor `antilink-all action/remove` to directly remove the link without notice\nor `antilink-all action/warn` to give warnings\nor `antilink-all action/delete` to remove the link without any sanctions\n\nPlease note that by default, the antilink-all feature is set to delete.\n\n*𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 CHARLESKE-V𝙼𝙳*");
           }
         }
       }
