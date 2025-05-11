@@ -8,7 +8,7 @@ zokou({
   nomCom: "play",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "Search",
-  reaction: "🧠"
+  reaction: "🎵"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;
 
@@ -58,7 +58,7 @@ let downloadData;
 
     // Check if a valid download URL was found
     if (!downloadData || !downloadData.success) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+      return repondre('Failed to retrieve download URL from all sources. Please try again later🥹.');
     }
 
     const downloadUrl = downloadData.result.download_url;
