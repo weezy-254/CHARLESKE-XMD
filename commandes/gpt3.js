@@ -1,7 +1,7 @@
-const { ezra } = require("../fredi/ezra");
+const { joel } = require("../framework/zokou");
 const axios = require("axios");
 
-ezra({ nomCom: "gpt3", reaction: "🌐", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+joel({ nomCom: "gpt3", reaction: "🌐", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
 
     try {
