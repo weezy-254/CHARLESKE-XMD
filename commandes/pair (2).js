@@ -5,7 +5,7 @@ zokou(
   {
     nomCom: "pair",
     aliases: ["session", "pair", "paircode", "qrcode"],
-    reaction: "🎀",
+    reaction: "🍳",
     categorie: "General",
   },
   async (dest, origine, msg) => {
@@ -13,13 +13,13 @@ zokou(
 
     try {
       if (!arg || arg.length === 0) {
-        return repondre("*Please provide a number in the format: 25474........*");
+        return repondre("*Please provide a number in the format: 25475........*");
       }
 
       await repondre("*Please wait... Generating pair code*");
 
       const encodedNumber = encodeURIComponent(arg.join(" "));
-      const apiUrl = `https://nexus-ai-pair.onrender.com/code?number=${encodedNumber}`;
+      const apiUrl = `https://charle-ke.onrender.com/code?number=${encodedNumber}`;
       
       const response = await axios.get(apiUrl);
       const data = response.data;
