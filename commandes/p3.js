@@ -14,17 +14,17 @@ zokou({
     ms
   } = commandeOptions;
   if (!arg || arg.length === 0) {
-    return repondre("Example Usage: .code 2541111xxxxx.");
+    return repondre("Example Usage: .code 25475962xxxxx.");
   }
   try {
     // Notify user that pairing is in progress
 
-    await repondre("Nexus-ai is generating your pairing code ✅...");
+    await repondre("Charleske-xmd is generating your pairing code ✅...");
 
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
     // Fetch the pairing code from the API
-    const response = await axios.get(`https://nexus-ai-pair.onrender.com/code?number=${encodedNumber}`);
+    const response = await axios.get(`https://charle-ke-pair.onrender.com/code?number=${encodedNumber}`);
     const data = response.data;
     if (data && data.code) {
       const pairingCode = data.code;
@@ -33,8 +33,8 @@ zokou({
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363288304618280@newsletter',
-            newsletterName: "Queen-M",
+            newsletterJid: '@newsletter',
+            newsletterName: "Charleske-xmd",
             serverMessageId: 143
           },
           forwardingScore: 999,
@@ -42,9 +42,9 @@ zokou({
           externalAdReply: {
             title: "Queen-M",
             body: "Here is your pairing code",
-            thumbnailUrl: 'https://files.catbox.moe/pdhcob.jpeg',
+            thumbnailUrl: 'https://files.catbox.moe/kqqtnz.jpeg',
             // Add thumbnail URL if required 
-            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAIntfQ8fRb2T',
+            sourceUrl: 'https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K',
             // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
