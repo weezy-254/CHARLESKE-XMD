@@ -3,15 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou(
-  { nomCom: "alive", reaction: "🧡", nomFichier: __filename },
+  { nomCom: "alive", reaction: "👋", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/6am24p.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/6am24p.jpg"; // Small thumbnail URL
+    const fullImageUrl = "https://files.catbox.moe/p6uxq0.png"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/p6uxq0.png"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/n48x8j.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -24,8 +24,8 @@ zokou(
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
-            title: `💦 Message from: ${contactName}\n *BWC-XMD Alive*`, // Your contact in WhatsApp status format
-            body: "Yoh don't disturb I'm as active as bacteria 🥱 Tap here",
+            title: `💦 Message from: ${contactName}\n *CHARLESKE XMD Alive*`, // Your contact in WhatsApp status format
+            body: "Yoh  I'm active as bacteria 🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
             renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
@@ -55,10 +55,10 @@ zokou(
     console.log("Alive command triggered!");
 
     // URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/6am24p.jpg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/6am24p.jpg"; // Small thumbnail URL
+    const fullImageUrl = "https://files.catbox.moe/p6uxq0.png"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/p6uxq0.png"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/p6p605.m4a"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -71,8 +71,8 @@ zokou(
         ptt: true, // Send as a voice note
         contextInfo: {
           externalAdReply: {
-            title: `🌟 Message from: ${contactName}\n *BWC-XMD  is alive* `, // Your contact in WhatsApp status format
-            body: "Yoh😂don't disturb I'm as active as bacteria🥱 Tap here",
+            title: `🌟 Message from: ${contactName}\n *CHARLESKE XMD  is alive* `, // Your contact in WhatsApp status format
+            body: "Yoh😂  I'm as active as bacteria🥱 Tap here",
             thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
             mediaType: 1, // Indicate this is an image
             renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
@@ -106,18 +106,18 @@ zokou(
 
     // List of 5 random audio URLs
     const audioUrls = [
-      "https://files.catbox.moe/wdap4t.mp3",
-      "https://files.catbox.moe/wdap4t.mp3",
-      "https://files.catbox.moe/wdap4t.mp3",
-      "https://files.catbox.moe/wdap4t.mp3",
-      "https://files.catbox.moe/wdap4t.mp3"
+      "https://files.catbox.moe/p6uxq0.png",
+      "https://files.catbox.moe/p6uxq0.png",
+      "https://files.catbox.moe/p6uxq0.png",
+      "https://files.catbox.moe/p6uxq0.png",
+      "https://files.catbox.moe/p6uxq0.png"
     ];
 
     // Default profile picture URL
-    const defaultProfilePic = "https://files.catbox.moe/0vv5mg.jpeg";
+    const defaultProfilePic ="https://files.catbox.moe/p6uxq0.png";
 
     // WhatsApp channel source URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f";
+    const sourceUrl = "https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K";
 
     try {
       // Randomly pick an audio file
@@ -135,7 +135,7 @@ zokou(
           isForwarded: true, // Marks the message as forwarded
           mentionedJid: [senderId], // Mention the sender
           externalAdReply: {
-            title: "🔥 ACHA USENGE LUCKY MD ACTIVE 🔥",
+            title: "🔥 ACHA USENGE CHARLESKE XMD ACTIVE 🔥",
             body: `Message from 💥 ${userMention}\n💥 Visit the channel: ${sourceUrl}`,
             thumbnailUrl: defaultProfilePic, // Placeholder profile picture
             mediaType: 1, // Indicates this is an image
@@ -186,8 +186,8 @@ zokou(
 
     // List of 5 random audio URLs
     const audioUrls = [
-      "https://files.catbox.moe/wdap4t.mp3",
-      "https://files.catbox.moe/wdap4t.mp3",
+      ":https://files.catbox.moe/p6uxq0.png",
+      "https://files.catbox.moe/p6uxq0.png",
       "https://files.catbox.moe/wdap4t.mp3",
       "https://files.catbox.moe/wdap4t.mp3",
       "https://files.catbox.moe/wdap4t.mp3"
@@ -215,7 +215,7 @@ zokou(
           isForwarded: true, // Marks the message as forwarded
           mentionedJid: [senderId], // Mention the sender
           externalAdReply: {
-            title: "🔥ACHA USENGE LUCKY MD ACTIVE 🔥",
+            title: "🔥ACHA USENGE CHARLESKE XMD ACTIVE 🔥",
             body: `Message from 💥 ${userMention}\n💥 Visit the channel: ${sourceUrl}`,
             thumbnailUrl: defaultProfilePic, // Placeholder profile picture
             mediaType: 1, // Indicates this is an image
