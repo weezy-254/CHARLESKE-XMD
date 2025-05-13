@@ -4,7 +4,7 @@ const traduire = require("../framework/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 
 zokou({
-  nomCom: "ranime",
+  nomCom: "anime",
   categorie: "Fun",
   reaction: "📺"
 },
@@ -65,7 +65,7 @@ zokou({
 });
 
 zokou({
-  nomCom: "imdb",
+  nomCom: "series",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
@@ -81,7 +81,7 @@ zokou({
     const imdbData = response.data;
 
     let imdbInfo = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
-    imdbInfo += " ``` 𝕀𝕄𝔻𝔹 𝕊𝔼𝔸ℝℂℍ```\n";
+    imdbInfo += " ``` CHARLESKE SEARCH```\n";
     imdbInfo += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";
