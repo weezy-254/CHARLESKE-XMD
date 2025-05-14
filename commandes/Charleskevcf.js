@@ -261,7 +261,7 @@ zokou({
 });
 
 zokou({
-  'nomCom': "req",
+  'nomCom': "request",
   'categorie': 'Group',
   'reaction': '😇'
 }, async (_0x3f37d6, _0x3d6273, _0x16b776) => {
