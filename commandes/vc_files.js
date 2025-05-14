@@ -69,7 +69,7 @@ zokou({ nomCom: 'channel',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`Support Here My Owner By Follow This Channel Please :https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x`) 
+                 await repondre(`Support Here My Owner By Follow This Channel Please :https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K`) 
 
    
 
@@ -89,7 +89,7 @@ zokou({ nomCom: 'group1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*Tap Here To Join NEXUS-AI Chatroom*. https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x `) 
+                 await repondre(`*Tap Here To Join CHARLESKE XMD Chatroom*. https://chat.whatsapp.com/EFh0BWKa0Uf92A7RgBwpuu `) 
 
    
 
@@ -109,7 +109,7 @@ zokou({ nomCom: 'update',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Nexus-ai is running on its latest vision_*`) 
+                 await repondre(`*_Charleske xmd is running on its latest version_*`) 
 
    
 
@@ -129,7 +129,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Nexus-ai_*`) 
+                 await repondre(`*_Charleske Xmd latest_*`) 
 
    
 
@@ -139,7 +139,7 @@ zokou({ nomCom: 'vision',
 
 
   
-zokou({ nomCom: 'Nexus',
+zokou({ nomCom: 'Charleske xmd',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '♻️', 
@@ -188,8 +188,8 @@ zokou({ nomCom: 'hack2',
     "SENDING LOG DOCUMENTS...",
     "SUCCESSFULLY SENT DATA AND Connection disconnected",
     "BACKLOGS CLEARED",
-    "POWERED BY NEXUS-AI",
-    "By Nexus-ai`) 
+    "POWERED BY ®Charles-Xmd",
+    "By CHARLESKE XMD`) 
 
    
 
