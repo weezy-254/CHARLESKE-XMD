@@ -65,7 +65,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://ibb.co/q70RyBd",
+      "value":"https://ibb.co/JjV0S4Tn",
       "required":false
        
      },
@@ -78,11 +78,11 @@
 	,
     "HEROKU_API_KEY": {
     "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+     "required" :true
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (put the name you put on top)",
-     "required" :false
+     "required" :true
     }  
 	  ,
     "SESSION_ID":
