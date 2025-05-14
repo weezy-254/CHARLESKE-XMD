@@ -1,11 +1,11 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require('axios');
-const conf = require(__dirname + "/../set");
+const conf = require(__dirname + "download");
 
 // General downloader function
 const handleDownload = async (dest, zk, params, serviceName, apiUrl, exampleUsage) => {
   const { repondre, arg } = params;
-  const query = arg.join(" ").trim();
+  const query = arg.join("download").trim();
 
   if (!query) {
     return repondre(exampleUsage);
