@@ -20,7 +20,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("CHARLES-VMD bot Restarting be cool.Thanks for choosing toxic lover-md⏳");
+    repondre("CHARLES-XMD bot Restarting be cool.Thanks for choosing toxic ©Charleske-xmd⏳");
 
   exec("pm2 restart all");
   
