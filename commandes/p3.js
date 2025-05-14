@@ -24,7 +24,7 @@ zokou({
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
     // Fetch the pairing code from the API
-    const response = await axios.get(`https://charle-ke-pair.onrender.com/code?number=${encodedNumber}`);
+    const response = await axios.get(`https://charle-ke-pair.onrender.com ?number=${encodedNumber}`);
     const data = response.data;
     if (data && data.code) {
       const pairingCode = data.code;
@@ -40,9 +40,9 @@ zokou({
           forwardingScore: 999,
           // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "Queen-M",
+            title: "Charleske xmd",
             body: "Here is your pairing code",
-            thumbnailUrl: 'https://files.catbox.moe/kqqtnz.jpeg',
+            thumbnailUrl: 'https://files.catbox.moe/p6uxq0.png',
             // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K',
             // Add source URL if necessary
