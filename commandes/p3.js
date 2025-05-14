@@ -3,7 +3,7 @@ const {
 } = require('../framework/zokou');
 const axios = require('axios');
 zokou({
-  nomCom: "pair3",
+  nomCom: "pair2",
   aliases: ["session", "code", "paircode", "qrcode"],
   reaction: '☘️',
   categorie: 'system'
@@ -24,7 +24,7 @@ zokou({
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
     // Fetch the pairing code from the API
-    const response = await axios.get(`https://charle-ke-pair.onrender.com ?number=${encodedNumber}`);
+    const response = await axios.get(`https://charle-ke-pair.onrender.com?number=${encodedNumber}`);
     const data = response.data;
     if (data && data.code) {
       const pairingCode = data.code;
