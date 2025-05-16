@@ -29,7 +29,7 @@
 
 ## 🚀 GET SESSION
 
-<p align="center">
+<p align="left">
   <a href="https://charle-ke.onrender.com">
     <img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-neonred?style=for-the-badge&logo=charleske" width="220" height="38.45"/>
   </a>
