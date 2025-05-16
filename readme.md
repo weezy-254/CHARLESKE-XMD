@@ -36,6 +36,13 @@
 </p>
 
 ---
+## 🚀 GET QR CODE
+
+<p align="right">
+  <a href="https://charle-ke.onrender.com">
+    <img title="GET QR" src="https://img.shields.io/badge/GET QR CODE-black?style=for-the-badge&logo=charleske" width="220" height="38.45"/>
+  </a>
+</p>
 
 ## 🧚‍♂️ CHARLESKE'S DEPLOYMENT OPTIONS
 
