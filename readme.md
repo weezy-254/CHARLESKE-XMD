@@ -39,8 +39,8 @@
 ## 🚀 GET QR CODE
 
 <p align="left">
-  <a href="https://https://qr-scaner2.onrender.com">
-    <img title="GET QR" src="https://img.shields.io/badge/GET QR CODE-pink?style=for-the-badge&logo=charleske" width="220" height="38.45"/>
+  <a href="https://qr-scaner2.onrender.com">
+    <img title="" src="https://img.shields.io/badge/GET QR CODE-pink?style=for-the-badge&logo=charleske" width="220" height="38.45"/>
   </a>
 </p>
 
