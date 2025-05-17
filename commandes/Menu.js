@@ -25,7 +25,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `╭━━━━━━━━━━━━━⬣
-┃ 💀 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
+┃ 🌟 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
 ┃━━━━━━━━━━━━━⬣
 ┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE XMD*
 ┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
