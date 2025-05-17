@@ -1,7 +1,7 @@
 <a href="https://gig.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=100&lines=CHARLESKE-VMD" alt="Typing SVG" /><
 
 <p align="center">  
-  <a href="https://files.catbox.moe/n6dmx3.jpeg">
+  <a href="https://files.catbox.moe/wdap4t.mp3">
     <img alt="secktor docs" height="300" src="https://files.catbox.moe/n6dmx3.jpeg">
     <h1 align="center"> 
     </h1>
@@ -26,7 +26,7 @@
 </p>
 
 ---
-VERSION 4.0.1
+VERSION 5.0.1
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=700&color=F70094&center=true&vCenter=true&width=1000&height=80&lines=👋+Hey+there!+Welcome+to+CHARLESKE+XMD+Bot+🚀;🔍+The+Official+Repository+💻;✅+Created+in+September+2024;🤖+Powered+by+the+Charleske+Team;🚀+Advanced+Features+%7C+Smooth+Performance+🧠;🔗+Fork+it+and+⭐+Star+the+Project)](https://git.io/typing-svg)
 
