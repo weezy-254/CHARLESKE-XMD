@@ -58,7 +58,7 @@ ${readMore}
 
     menuMsg += `🌙 Good night! Sleep well and recharge! 😴`;
 
-    let imageUrl = "https://files.catbox.moe/n6dmx3.jpeg";
+    let imageUrl = "https://files.catbox.moe/p6uxq0.png";
 
     try {
         zk.sendMessage(dest, { 
