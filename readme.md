@@ -79,5 +79,5 @@ VERSION 5.0.1
 
 ## 👨‍💻 Developer Support🇰🇪
 
-- 🤔 Need help? [Open an Issue](https://github.com/Charleskenya/Charleske-xmd/issues)
+- 🤔 Need help? [Open an Issue](https://github.com/Charleskenya1/Charleske-xmd/issues)
 - 📩 WhatsApp Dev Chat: [Chat Charleske Tech](https://wa.me/+254759626063?text=Hello+Charleske+Tech,+I+need+assistance+with+Charleske+xmd+Bot)
