@@ -27,7 +27,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     let infoMsg = `╭━━━━━━━━━━━━━⬣
 ┃ 💀 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
 ┃━━━━━━━━━━━━━⬣
-┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE-VMD*
+┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE XMD*
 ┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
 ┃ 📳 ᴹᵒᵈᵉ: *🌍 ${mode}*
 ┃ ⌨ ᴾʳᵉᶠⁱˣ: *[ ${prefixe} ]*
@@ -36,12 +36,12 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃ ⏳ ᵀⁱᵐᵉ: *${temps}*
 ┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
 ┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
-┃ 👑 ᴼʷⁿᵉʳ: *Charleskenya1*
+┃ 👑 ᴼʷⁿᵉʳ: *Charleske*
 ╰━━━━━━━━━━━━━⬣
 
 ${readMore}
 🛠 *Available Commands* 🛠
-━━━━━━━━━━━━━━━━━━━━/n`;
+━━━━━━━━━━━━━━━━━━━━n`;
 
     let menuMsg = ``;
 
@@ -53,22 +53,21 @@ ${readMore}
             const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
             menuMsg += `➤ .${cmd1} ${cmd2}\n`;
         }
-        menuMsg += `━━━━━━━━━━━━━━━━━━━━/n`;
+        menuMsg += `━━━━━━━━━━━━━━━━━━━━n`;
     }
 
     menuMsg += `🌙 Good night! Sleep well and recharge! 😴`;
 
-    let imageUrl = "";
+    let imageUrl = "https://files.catbox.moe/n6dmx3.jpeg";
 
     try {
         zk.sendMessage(dest, { 
             image: { url: imageUrl }, 
             caption: infoMsg + menuMsg, 
-            footer: "© CHARLESKE-XMD" 
+            footer: "© CHARLESKE XMD" 
         }, { quoted: ms });
     } catch (e) {
         console.log("🥵 Menu error: " + e);
         repondre("🥵 Menu error: " + e);
     }
 });
-              
