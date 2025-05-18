@@ -2,7 +2,7 @@
 
 <p align="center">  
   <a href="https://files.catbox.moe/xv5h54.jpg">
-    <img alt="secktor docs" height="300" src="https://files.catbox.moe/n6dmx3.jpeg">
+    <img alt="secktor docs" height="300" src="https://files.catbox.moe/xv5h54.jpg">
     <h1 align="center"> 
     </h1>
   </a>
