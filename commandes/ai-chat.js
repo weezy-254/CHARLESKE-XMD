@@ -1,4 +1,4 @@
-const { cmd } = require('..framework/zokou');
+const { cmd } = require('..zokou');
 const axios = require('axios');
 
 cmd({
