@@ -72,7 +72,7 @@ zokou({
  *Title: ${videoDetails.title}*
  *Quality: High*
  *Duration: ${firstVideo.timestamp}*
-> *Nexus-ai Player* 
+> *®Charleske-xmd Player* 
 `,
        document: { url: downloadUrl },
        mimetype: 'audio/mpeg',
