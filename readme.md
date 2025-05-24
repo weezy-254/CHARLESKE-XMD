@@ -31,6 +31,10 @@ VERSION 5.0.1
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=700&color=F70094&center=true&vCenter=true&width=1000&height=80&lines=👋+Hey+there!+Welcome+to+CHARLESKE+XMD+Bot+🚀;🔍+The+Official+Repository+💻;✅+Created+in+September+2024;🤖+Powered+by+the+Charleske+Team;🚀+Advanced+Features+%7C+Smooth+Performance+🧠;🔗+Fork+it+and+⭐+Star+the+Project)](https://git.io/typing-svg)
 
 
+
+- **FOKRK:**  
+  [![Click Here](https://img.shields.io/badge/➤Click-Here-white.svg)](https://Charleskenya1/CHARLESKE-XMD)
+
 ## 🚀 GET SESSION
 
 <p align="left">
