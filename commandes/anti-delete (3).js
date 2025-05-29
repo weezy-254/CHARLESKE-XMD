@@ -2,12 +2,12 @@ const { zokou } = require("../framework/zokou");
 const fs = require('fs');
 
 
-let antiDeleteActive = false; // Variable pour stocker l'état de la commande anti-delete
+let antiDeleteActive = true; // Variable pour stocker l'état de la commande anti-delete
 
 zokou({
-  nomCom: "anti-delete",
+  nomCom: "antidelete on",
   categorie: "General",
-  reaction: "🥺"
+  reaction: "🛑"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, arg } = commandeOptions;
 
@@ -18,8 +18,8 @@ zokou({
       antiDeleteActive = true;
       await zk.sendMessage(origineMessage, "La commande anti-delete est activée.");
       return;
-    } else if (action === "off") {
-      antiDeleteActive = false;
+    } else if (action === "on") {
+      antiDeleteActive = true;
       await zk.sendMessage(origineMessage, "La commande anti-delete est désactivée.");
       return;
     }
@@ -61,7 +61,7 @@ zokou({
       }
 
       const senderId = msg.key.participant.split('@')[0];
-      const caption = ` Anti-delete-message by Leonard Tech\nMessage de @${senderId}`;
+      const caption = ` Anti-delete-message by Charleske\nMessage de @${senderId}`;
       const imageCaption = { image: { url: './media/deleted-message.jpg' }, caption, mentions: [msg.key.participant] };
 
       await zk.sendMessage(idBot, imageCaption);
