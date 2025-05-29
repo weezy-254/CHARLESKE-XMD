@@ -1,7 +1,7 @@
 const { zokou } = require("../framework/zokou");
 
 // Store Anti-Delete status per chat (group or personal)
-const antiDeleteStatus = new Map();
+const antiDeleteChats = new Map();
 
 // Anti-Delete handler - Always active for all chats
 module.exports.antiDeleteHandler = async (message, zk) => {
