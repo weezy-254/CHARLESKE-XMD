@@ -14,7 +14,7 @@ zokou({
   // Vérifier si un argument est fourni pour activer ou désactiver la commande
   if (arg[0]) {
     const action = arg[0].toLowerCase();
-    if (action === "on") {
+    if (action === "off") {
       antiDeleteActive = true;
       await zk.sendMessage(origineMessage, "La commande anti-delete est activée.");
       return;
