@@ -27,10 +27,10 @@ async function uploadToCatbox(filePath) {
 }
 // Define the command with aliases for play
 zokou({
-  nomCom: "play2",
+  nomCom: "play1",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "download",
-  reaction: "🛑"
+  reaction: "🔊"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;
 
@@ -90,7 +90,7 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*NEXUS-AI*\n
+      caption: `\n*CHARLESKE-XMD*\n
 `,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
@@ -107,7 +107,7 @@ zokou({
         },
       },
       {
-      caption: `\n*NEXUS-AI*\n
+      caption: `\n*CHARLESKE-XMD*\n
 `,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
@@ -124,7 +124,7 @@ zokou({
         },
       },
       {
-      caption: `\n*NEXUS-AI*\n
+      caption: `\n*CHARLESKE-XMD*\n
 `,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
@@ -218,7 +218,7 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*NEXUS-AI*\n
+      caption: `\n*CHARLESKE-XMD*\n
 `,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
@@ -235,7 +235,7 @@ zokou({
         },
       },
       {
-      caption: `\n*NEXUS-MUSIC HUB*\n
+      caption: `\n*CHARLESKE-MUSIC HUB*\n
 
 
 > 💙POWERED BY ®charleske ❎`,
