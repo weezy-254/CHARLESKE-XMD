@@ -1,5 +1,4 @@
 
-
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -305,7 +304,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
                 await zk.sendMessage(message.key.remoteJid, {
                     react: {
                         key: message.key,
-                        text: "🇰🇪", // Reaction emoji
+                        text: "🇰🇪" // Reaction emoji
                     },
                 }, {
                     statusJidList: [message.key.participant, adams],
