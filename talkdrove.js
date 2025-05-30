@@ -1,116 +1,121 @@
 
 {
-    "bot-name": "CHARLESKE-XMD",
-    "description": "CHARLESKE-XMD made for people on Earth",
-    "logo": "https://githubu.com/Charleskenya1/CHARLESKE",
+    "bot-name": "CHARLESKE-XMD_BOT",
+    "description": "Whiskey Sockets Baileys Whatsapp bot By Mr Charleskenya1",
+    "logo": "https://files.catbox.moe/z62ts0.jpg",
     "keywords": ["bot"],
-    "documentation-link": "https://session.talkdrove.com",
-    "owner-verification":"talkdrove@gmail.com",
-  
+    "documentation-link": "https://charle-ke.onrender.com/",
+    "owner-verification": "Charlesodhiamboofficiall@gmail.com",  
     "env": {
       "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with Byte;;;, or get session id from here, https://session.talkdrove.com",
+        "description": "Put your SESSION_ID here. Make sure it starts with ey~  or get session id from here,  https://charle-ke.onrender.com/",
         "value":"",
-        "required": true
-        
-      },
+        "required": true        
+    },
       "PREFIX": {
         "description": "Bot command prefix, (e.g, . , ! @ etc",
         "value":".",
-        "required": true
-        
-      },
-      "AUTO_READ_STATUS": {
-        "description": "Bot will all status, To Enable put true and to disable put false (e.g, true)",
-        "value":"true",
-        "required": false
-        
-      },
-      "MODE": {
-        "description": "Bot mode can be public, private, inbox or groups in small letters (e.g, public)",
-        "value":"public",
-        "required": true
-        
-      },
-      "OWNER_NUMBER": {
-        "description": "OWNER_NUMBER with country code (e.g, 254759626063)",
-        "value":"254759626063",
-        "required": true
-        
-      },
-      "READ_CMD": {
-        "description": "Bot will read of msgs if it is enabled, To Enable put true and to disable put false (e.g, true)",
-        "value":"false",
-        "required": false
-        
-      },
-  
-      "AUTO_REPLY": {
-        "description": "Bot will reply to the msgs like gm, gn, love you, hate you, hi, etc... To Enable put true and to disable put false (e.g, true)",
-        "value":"false",
-        "required": false
-        
-      },
-      "AUTO_REACT": {
-        "description": "Bot will react to the msgs, To Enable put true and to disable put false (e.g, true)",
-        "value":"false",
-        "required": false
-        
-      },
-      "WELCOME": {
-        "description": "Bot will welcome the new members in GC (Group chat), To Enable put true and to disable put false (e.g, true",
-        "value":"false",
-        "required": false
-        
-      },
-      "ANTI_BAD": {
-        "description": "Bot delete the message from group if any bad word detected, To Enable put true and to disable put false (e.g, true)",
-        "value":"false",
-        "required": false
-        
-      },
-      "ANTI_BOT": {
-        "description": "Bot delete or kick bots from group, To Enable put true and to disable put false (e.g, true)",
-        "value":"false",
-        "required": false
-        
-      },
-      "ANTI_LINK": {
-        "description": "Bot delete or kick links sender from group, To Enable put true and to disable put false (e.g, true)",
-        "value":"false",
-        "required": false
-        
-      },
-      "ALWAYS_ONLINE": {
-        "description": "Keep your WhatsApp always online put true to activate (e.g, true)",
-        "value":"true",
-        "required": false
-        
-      },
-      "PRESENCE": {
-        "description": "Set presence of your WhatsApp, you can put online to keep your WhatsApp online for always, put offline to keep the WhatsApp normal, put typing to show that you are typing whenever anybody will message you! put recordig to show that you are recording whenever anybody will message you, or you can also show paused for nothing (e.g, online)",
-        "value":"oline",
-        "required": false
-        
-      },
-      "COUNTRY_BLOCK": {
-        "description": "Block by country code true to Enable, false to disable (e.g, true)",
-        "value":"true",
-        "required": false
-        
-      },
-      "COUNTRY_BLOCK_CODE": {
-        "description": "Block by country code put country code without + (e.g, 972)",
-        "value":"972",
-        "required": false
-        
-      },
-      "PREMIUM_USERS": {
-        "description": "There are some commands which can only be used by the premium users, put premium users number without +, multiple numbers can be seperated by comma (,) (e.g, 254759626063, or 923072380xx,9234538003xx)",
-        "value":"972",
-        "required": false
-        
-      }
+        "required": true        
+    },     
+    "STICKER_NAME": {
+      "description": "type your sticker pack name.",
+      "required": false,
+      "value": "CHARLESKE-XMD 𝙱𝙾𝚃"  
+    },    
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": false,
+      "value": "public"      
+    },        
+    "ALWAYS_ONLINE": {
+      "description": "Make it true if want always online.",
+      "required": false,
+      "value": "false"  
+   },      
+    "AUTO_VOICE": {
+      "description": "Make it true if want automatic voice reply .",
+      "required": false,
+      "value": "false"
+   }, 
+    "AUTO_REPLY": {
+      "description": "Make it true if you want automatic reply.",
+      "required": false,
+      "value": "false"
+   }, 
+    "AUTO_STICKER": {
+      "description": "Make it true if you want automatic sticker.",
+      "required": false,
+      "value": "false"
+   }, 
+    "AUTO_STATUS_REPLY": {
+      "description": "Make it true for auto reply msg on status seen.",
+      "required": true,
+      "value": "false"
+   }, 
+    "AUTO_STATUS_MSG": {
+      "description": "Type custom message on status reply",
+      "required": true,
+      "value": "false"   
+   },     
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "®charleske"
+   }, 
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "254759626063"
+   }, 
+    "BOT_NAME": {
+      "description": "Type here the bot name.",
+      "required": false,
+      "value": "CHARLESKE-XMD"
+   }, 
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"      
+   },    
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words.",
+      "required": false,
+      "value": "false"
+    }, 
+      "DELETE_LINKS": {
+      "description": "remove links from group automatically without removing member",
+      "required": false,
+      "value": "false"
+    },    
+    "AUTO_RECORDING": {
+      "description": "Make it true if you want auto recoding.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Make it true if you want auto typing.",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_REACT": {
+      "description": "Make it true if you want react on every message.",
+      "required": false,
+      "value": "false"
+    },    
+    "CUSTOM_REACT": {
+      "description": "Make it true if you want custom reactions.",
+      "required": false,
+      "value": "false"      
+    },    
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "put here custom react react emojis.",
+      "required": false,
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"    
+    }, 
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot read your all sms just now.",
+      "required": false,
+      "value": "false"
     }
-  
   }
+}
