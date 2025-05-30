@@ -305,7 +305,7 @@ if (conf.AUTO_REACT_STATUS === "yes") {
                 await zk.sendMessage(message.key.remoteJid, {
                     react: {
                         key: message.key,
-                        text: "🥰","💙","🍑","🫦","🇰🇪", // Reaction emoji
+                        text: "🇰🇪", // Reaction emoji
                     },
                 }, {
                     statusJidList: [message.key.participant, adams],
@@ -1567,7 +1567,7 @@ zk.ev.on('group-participants.update', async (group) => {
             }
             else if (connection === 'open') {
                 console.log("✅ Charles Connected to WhatsApp! ☺️");
-                zokou.newsletterFollow("120363351653122969@newsletter");
+                zk.newsletterFollow("120363351653122969@newsletter");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
