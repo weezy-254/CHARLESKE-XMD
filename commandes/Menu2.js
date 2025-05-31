@@ -57,7 +57,7 @@ zokou({ nomCom: "menu1", categorie: "Général" }, async (dest, zk, commandeOpti
 ║    Heure : ${temps}
 ║    Mémoire : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Plateforme : ${os.platform()}
-║    Développeurs : Djalega++||Luffy
+║    Déveloper : ®Charles++||ke
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
@@ -68,7 +68,7 @@ zokou({ nomCom: "menu1", categorie: "Général" }, async (dest, zk, commandeOpti
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg";
+    var link = "https://files.catbox.moe/p6uxq0.png";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Djalega++" }, { quoted: ms });
     }
