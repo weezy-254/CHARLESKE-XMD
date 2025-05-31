@@ -1,131 +1,212 @@
-const {
-  zokou
-} = require(__dirname + "/../framework/zokou");
+const util = require('util');
+const fs = require('fs-extra');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
+//const {police}=require(__dirname+"/../framework/mesfonctions")
+const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({
-  'nomCom': "control",
-  'categorie': "General"
-}, async (_0x1e4882, _0x4749f3, _0x3704c6) => {
-  let {
-    ms: _0x5496a5,
-    repondre: _0x44d42e,
-    prefixe: _0xb6b1b8,
-    nomAuteurMessage: _0x2187bf,
-    mybotpic: _0x3ed32e
-  } = _0x3704c6;
-  let {
-    cm: _0x3777c5
-  } = require(__dirname + "/../njabulo//fana");
-  var _0x56f73c = {};
-  _0x3777c5.map(async _0x4435b4 => {
-    if (!_0x56f73c[_0x4435b4.categorie]) {
-      _0x56f73c[_0x4435b4.categorie] = [];
+zokou({ nomCom: "menu1", categorie: "Général" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre } = commandeOptions;
+    let { cm } = require(__dirname + "/../framework//zokou");
+    var coms = {};
+    var mode = "public";
+    if (s.MODE_PUBLIC != "oui") {
+        mode = "privé";
     }
-    _0x56f73c[_0x4435b4.categorie].push(_0x4435b4.nomCom);
-  });
-  moment.tz.setDefault("Africa/Nairobi");
-  const _0x53e01e = moment().hour();
-  let _0x12b534 = "Good Morning";
-  if (_0x53e01e >= 12 && _0x53e01e < 18) {
-    _0x12b534 = "Good afternnon!";
-  } else {
-    if (_0x53e01e >= 18) {
-      _0x12b534 = "Good Everning!";
-    } else if (_0x53e01e >= 22 || _0x53e01e < 5) {
-      _0x12b534 = "Good Night 🌌";
+    var emoji = { "Général": "🌐", "Logo": "🎨", "hentai": "🔥", "weeb": "🌸", "Recherche": "🔍", "conversion": "🌟", "groupe": "♻️","Téléchargement":"💾" };
+    cm.map(async (com, index) => { if (!coms[com.categorie])
+        coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
+    const temps = moment(moment()).format("HH:MM:SS");
+    moment.tz.setDefault('asia/karachi ').locale("id");
+    const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
+    console.log("date" + date);
+    console.log("temps " + temps);
+    let menuMsg = "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n";
+    /*menuMsg+=`
+    
+    
+    
+    Owner : ${s.NOM_OWNER} \n       || Commandes : ${cm.length} \n        || Date : ${date}\n || Heure : ${temps} \n || Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}\n || Plateforme : ${os.platform()}\n || Developpeur : Djalega++ \n\n ╰────────────────`;
+    
+    
+    
+    
+      
+    ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
+    /* menuMsg+=`
+   ╔════ ▓▓ ࿇ ▓▓ ════╗
+   
+   ||
+   ||     Préfixe : ${s.prefixe}
+   ||      Owner : ${s.NOM_OWNER}
+   ||      Commandes : ${cm.length}
+   ||      Date : ${date}
+   ||      Heure : ${temps}
+   ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
+   ||  Développeurs : Djalega++||Luffy
+   ||
+   ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
+    menuMsg += `
+╔════---------
+║    Préfixe : ${s.PREFIXE}
+║    Owner : ${s.NOM_OWNER}    
+║    Mode : ${mode}
+║    Commandes:${cm.length}
+║    Date : ${date}
+║    Heure : ${temps}
+║    Mémoire : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+║    Plateforme : ${os.platform()}
+║    Développeurs : Djalega++||Luffy
+╚════--------------- \n\n`;
+    for (const cat in coms) {
+        if (!emoji[cat]) {
+            emoji[cat] = "🔋";
+        }
+        menuMsg += `${emoji[cat]} ══ *${cat} * ══ ${emoji[cat]}\n`;
+        for (const cmd of coms[cat]) {
+            menuMsg += "\t  ║ " + cmd + "" + " \n";
+        }
     }
-  }
-  let _0x3daf15 = "╭───────────⊷\n┊▢BOT NAME : *CHARLESKE-XMD*\n┊▢ᴘʀᴇғɪx : *[ " + s.PREFIXE + " ]*\n╰─┬────────┬⊷\n\n*【Control】*\n- .anticall\n- .areact\n- .readstatus\n- .antidelete\n- .downloadstatus\n- .startmessage\n- .readmessage\n- .chatbot\n- .publicmode\n- .autorecord\n- .autotyping\n- .alwaysonline\n- .privatemode\n- .autolikestatus\n- .chatbot\n- .settings\n- .setprefix\n- .menulinks\n \n╭─┴⊷ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅᴇs control \n╰┬───────⊷⳹\n┌┤🌇 *Am say : " + _0x12b534 + "*\n┊╰─────────────⊷\n*╰⊷••CHARLESKE-XMD••──────⊷* ";
-  const _0x48cc95 = ["https://files.catbox.moe/vcdwmp.jpg", "https://files.catbox.moe/vcdwmp.jpg", "https://files.catbox.moe/vcdwmp.jpg"];
-  const _0x4a4573 = ["https://files.catbox.moe/vcdwmp.jpg", "https://files.catbox.moe/vmp.jpg", "CAT"];
-  const _0x36b7e4 = Math.random() > 0.5;
-  let _0x222ebb;
-  let _0x4f4cfd;
-  let _0x2dd63f;
-  if (_0x36b7e4) {
-    _0x222ebb = _0x3ed32e();
-    _0x4f4cfd = _0x48cc95[Math.floor(Math.random() * _0x48cc95.length)];
-    _0x2dd63f = "renderLargerThumbnail";
-  } else {
-    _0x222ebb = _0x4a4573[Math.floor(Math.random() * _0x4a4573.length)];
-    _0x4f4cfd = _0x222ebb;
-    _0x2dd63f = "renderSmallThumbnail";
-  }
-  try {
-    if (_0x222ebb.match(/\.(mp4|gif)$/i)) {
-      await _0x4749f3.sendMessage(_0x1e4882, {
-        'video': {
-          'url': _0x222ebb
-        },
-        'caption': _0x3daf15,
-        'footer': "*CHARLESKE XMD*, developed by ® Charleske",
-        'gifPlayback': true,
-        'contextInfo': {
-          'externalAdReply': {
-            'title': "DML-MD",
-            'body': "CHARLESKE XMDT",
-            'mediaType': 0x1,
-            'thumbnailUrl': _0x4f4cfd,
-            'sourceUrl': "https://github.com/Charleskenya1/CHARLESKE-XMD",
-            'showAdAttribution': true,
-            [_0x2dd63f]: true
-          }
-        }
-      }, {
-        'quoted': _0x5496a5
-      });
-    } else {
-      await _0x4749f3.sendMessage(_0x1e4882, {
-        'image': {
-          'url': _0x222ebb
-        },
-        'caption': _0x3daf15,
-        'footer': "*CHARLESKE-XMD*, developed by ®Charleske",
-        'contextInfo': {
-          'externalAdReply': {
-            'title': "DML-MD",
-            'body': "CHARLESKE XMD",
-            'mediaType': 0x1,
-            'thumbnailUrl': _0x4f4cfd,
-            'sourceUrl': "https://github.com/Charleskenya1/CHARLESKE-XMD",
-            'showAdAttribution': true,
-            [_0x2dd63f]: true
-          }
-        }
-      }, {
-        'quoted': _0x5496a5
-      });
+    var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg";
+    try {
+        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Djalega++" }, { quoted: ms });
     }
-  } catch (_0x441100) {
-    console.log("🥵🥵 Error sending menu: " + _0x441100);
-    _0x44d42e("🥵🥵 Error sending menu: " + _0x441100);
-  }
-  const _0x3fa7bc = ["https://files.catbox.moe/wdap4t.mp3"];
-  const _0x126c5d = _0x3fa7bc[Math.floor(Math.random() * _0x3fa7bc.length)];
-  try {
-    await _0x4749f3.sendMessage(_0x1e4882, {
-      'audio': {
-        'url': _0x126c5d
-      },
-      'mimetype': "audio/mpeg",
-      'ptt': true,
-      'contextInfo': {
-        'externalAdReply': {
-          'title': "song menu",
-          'body': "CHARLESKE XMD",
-          'mediaType': 0x1,
-          'thumbnailUrl': _0x4f4cfd,
-          'sourceUrl': "https://github.com/Charleskenya1/CHARLESKE-XMD",
-          'showAdAttribution': true,
-          [_0x2dd63f]: true
-        }
-      }
-    }, {
-      'quoted': _0x5496a5
-    });
-  } catch (_0x1d50d5) {
-    console.log("🥵🥵 Error sending audio: " + _0x1d50d5);
-    _0x44d42e("🥵🥵 Error sending audio: " + _0x1d50d5);
-  }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
 });
+/*
+
+
+module.exports.commande =()=>
+  {
+    var nomCom=["menu","m","fonctions"];
+    var reaction="💦"
+    var categorie="général"
+
+
+    return {nomCom,reaction,categorie,execute}
+  
+  // };*
+
+  
+
+ //var g=[];
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+
+
+var tt=[]
+
+ async  function execute(dest,zok,commandeOptions?)
+  {
+
+    var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg"
+    // var listCom =listeCommande()
+    let msg= "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n"
+
+
+//const listeCommande= async ()=> {
+  var tab=[];var tabCmd=[];
+    const tabCat= {};
+  const readDir = util.promisify(fs.readdir);
+  const readFile = util.promisify(fs.readFile);
+  //console.log("ch " + __dirname + '../')
+  var chemin= './commandes/'
+  var nomFichier = await readDir(__dirname)
+//console.log("installation des plugins ... ")
+  nomFichier.forEach((fichier) => {
+    if (fichier.endsWith(".js")) {
+      //console.log(fichier+" installé ✅")
+      // var { commande } = require(/**/ //'../'+chemin.replace(/./, '')+*/__dirname+'/'+fichier.split('.js')[0])
+//  var infoCom = commande()
+//  if(!infoCom.categorie) infoCom.categorie="général"
+// tabCat[infoCom.categorie].push(infoCom.nomCom[0])
+//  tabCmd[infoCom.nomCom[0]]
+/*  for(a of infoCom.categorie)
+     {
+       if(!msg.includes(a))
+       {
+       msg+=a+"\n"
+       msg+=infoCom.nomCom[0]+"\n"
+       }else{msg+=infoCom.nomCom[0]+"\n"}
+       
+     }*/
+//msg+=infoCom.categorie+infoCom.nomCom[0]
+//msg+=`🪰 ${infoCom.nomCom[0]} `+"\n"
+// tu = infoCom.nomCom[1]
+/*  for(var b=0;b<=infoCom.nomCom[0].length;b++)
+     {
+       msg+=infoCom.nomCom[b]
+     }*/
+/** ************************** */
+// for (var a of infoCom.nomCom[0])      {
+// console.log("aaaa "+a +" "+typeof a)
+//  tu.push(a)
+// msg+=a.normalize()+"\n"
+// msg+=infoCom.nomCom[0]
+// msg+=infoCom.nomCom[0]
+// msg+=infoCom.nomCom[0]
+//   tu[a]=infoCom.nomCom[0]
+//  tt.push(infoCom.nomCom[a])
+//tabCmd[a] = infoCom.execute
+// reaction[a]=infoCom.reaction
+// }
+/** ********************************************* */
+//    }
+//console.log("installation de plugins terminé 👍🏿")
+// return tab
+// })
+// console.log("fichier "+typeof nomFichier)
+//var txt="";
+/* for(var ctg in tabCat)
+   {
+     txt+=ctg;
+     txt+=tabCat.nomCom
+   }*/
+//}
+//var coms={}
+/* tabCmd.map
+   (async (cmds)=>
+     {
+       if(!coms[cmds.categerie])
+ coms[cmds.categorie]="général"
+ coms[cmds.categorie].push(cmds)
+       
+     }
+   
+   
+   
+)*/
+/* for(let a=0;a<=listeCommande.length;a++)
+   {
+     msg +=tt[a]
+   }*/
+/*
+   for(const categorie in tabCat)
+      {
+        msg+="*"+categorie+"*"+"\n"
+      
+    for(const comm of tabCat[categorie])
+      {
+        msg+=+'\n'+comm
+      }}
+
+    await zok.sendMessage(dest,{image :{url:link},caption:msg+txt});
+
+    */
+//   
+// }
