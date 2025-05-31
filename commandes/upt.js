@@ -35,7 +35,7 @@ zokou({
       'contextInfo': {
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363353854480831@newsletter",
+          'newsletterJid': "120363351653122969@newsletter",
           'newsletterName': "CHARLESKE-XMD",
           'serverMessageId': 0x8f
         },
@@ -43,7 +43,7 @@ zokou({
         'externalAdReply': {
           'title': "Bot Runtime",
           'body': " Uptime: " + runtime(process.uptime()),
-          'thumbnailUrl': "https://files.catbox.moe/aktbgo.jpg",
+          'thumbnailUrl': "https://files.catbox.moe/s7fpqq.jpg",
           'sourceUrl': "",
           'mediaType': 0x1,
           'renderLargerThumbnail': true
