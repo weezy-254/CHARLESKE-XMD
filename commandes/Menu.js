@@ -9,7 +9,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206);
 const readMore = more.repeat(4001);
 
-zokou({ nomCom: "charleske", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage } = commandeOptions;
     let { cm } = require(__dirname + "/../framework/zokou");
     var coms = {};
@@ -24,9 +24,9 @@ zokou({ nomCom: "charleske", categorie: "General" }, async (dest, zk, commandeOp
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
-    let infoMsg = `╭━━━━━━━━━━━━━⬣
+    let infoMsg = `╭━━━━━━━━━━━━━⬣/
 ┃ 🌟 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
-┃━━━━━━━━━━━━━⬣
+┃━━━━━━━━━━━━━⬣/
 ┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE XMD*
 ┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
 ┃ 📳 ᴹᵒᵈᵉ: *🌍 ${mode}*
@@ -37,11 +37,11 @@ zokou({ nomCom: "charleske", categorie: "General" }, async (dest, zk, commandeOp
 ┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
 ┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
 ┃ 👑 ᴼʷⁿᵉʳ: *Charleske*
-╰━━━━━━━━━━━━━⬣
+╰━━━━━━━━━━━━━⬣/
 
 ${readMore}
 🛠 *Available Commands* 🛠
-━━━━━━━━━━━━━━━━━━━━n`;
+━━━━━━━━━━━━━━━━━━━━/n`;
 
     let menuMsg = ``;
 
@@ -53,10 +53,10 @@ ${readMore}
             const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
             menuMsg += `➤ .${cmd1} ${cmd2}\n`;
         }
-        menuMsg += `━━━━━━━━━━━━━━━━━━━━n`;
+        menuMsg += `━━━━━━━━━━━━━━━━━━━━/n`;
     }
 
-    menuMsg += `🌙 Good night! Sleep well and recharge! 😴`;
+    menuMsg += `🫦 Go well and recharge! 👍`;
 
     let imageUrl = "https://files.catbox.moe/p6uxq0.png";
 
