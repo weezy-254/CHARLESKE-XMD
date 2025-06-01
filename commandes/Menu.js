@@ -24,7 +24,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const temps = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
 
-    let infoMsg = `╭━━━━━━━━━━━━━⬣/
+    let infoMsg = `╭━━━━━━━━━━━━━⬣
 ┃ 🌟 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
 ┃━━━━━━━━━━━━━⬣
 ┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE XMD*
@@ -46,12 +46,12 @@ ${readMore}
     let menuMsg = ``;
 
     for (const cat in coms) {
-        menuMsg += `⭐ *${cat.toUpperCase()}*\n`;
+        menuMsg += `⭐ *${cat.toUpperCase()}*`;
         // Group commands in pairs for better display
         for (let i = 0; i < coms[cat].length; i += 2) {
             const cmd1 = coms[cat][i] || '';
             const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
-            menuMsg += `➤ .${cmd1} ${cmd2}\n`;
+            menuMsg += `➤ .${cmd1} ${cmd2}`;
         }
         menuMsg += `━━━━━━━━━━━━━━━━━━━━`;
     }
