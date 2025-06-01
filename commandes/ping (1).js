@@ -12,7 +12,7 @@ const moment = require("moment-timezone");
 const conf = require(__dirname + "/../set");
 
 const AUDIO_URL = "https://files.catbox.moe/mfhv0a.mp3"; // New audio URL
-const THUMBNAIL_URL = "https://files.catbox.moe/ts2az9.jpg"; // New image URL
+const THUMBNAIL_URL = "https://files.catbox.moe/p6uxq0.png"; // New image URL
 
 moment.tz.setDefault(`${conf.TZ}`);
 
@@ -34,17 +34,17 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
         audio: { url: AUDIO_URL }, 
             mimetype: 'audio/mp4', 
             ptt: true, // Voice note form
-      text: `Pong...: ${ping}ms\n🍒🍓`,
+      text: `Pong...: ${ping}ms\n💚🇰🇪`,
       contextInfo: {
         forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363288304618280@newsletter',
-              newsletterName: 'NEXUS-AI',
+              newsletterJid: '120363351653122969@newsletter',
+              newsletterName: 'CHARLESKE XMD',
               serverMessageId: 143},
         externalAdReply: {
           
-          title: "Follow for updates 💙",
+          title: "Follow for updates 🤗",
       body: "Enjoy...",
       thumbnailUrl: conf.URL,
           sourceUrl: conf.GURL,
