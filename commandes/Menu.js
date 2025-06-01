@@ -46,12 +46,12 @@ ${readMore}
     let menuMsg = ``;
 
     for (const cat in coms) {
-        menuMsg += `⭐ *${cat.toUpperCase()}*`;
+        menuMsg += `⭐ *${cat.toUpperCase()}/*`;
         // Group commands in pairs for better display
         for (let i = 0; i < coms[cat].length; i += 2) {
             const cmd1 = coms[cat][i] || '';
             const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
-            menuMsg += `➤ .${cmd1} ${cmd2}`;
+            menuMsg += `➤ .${cmd1} ${cmd2}/`;
         }
         menuMsg += `━━━━━━━━━━━━━━━━━━━━`;
     }
