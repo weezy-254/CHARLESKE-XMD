@@ -26,7 +26,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     let infoMsg = `╭━━━━━━━━━━━━━⬣/
 ┃ 🌟 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾  
-┃━━━━━━━━━━━━━⬣/
+┃━━━━━━━━━━━━━⬣
 ┃ 🔹 ᴮᵒᵗ ᴺᵃᵐᵉ: *CHARLESKE XMD*
 ┃ 👤 ᵁˢᵉʳ: *🚀${nomAuteurMessage}💥*
 ┃ 📳 ᴹᵒᵈᵉ: *🌍 ${mode}*
@@ -37,11 +37,11 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ┃ 🛠 ᶜᵒᵐᵐᵃⁿᵈˢ: *${Object.keys(cm).length}*
 ┃ 📊 ᶜᵃᵖᵃᶜⁱᵗʸ: ${(os.freemem() / 1024 / 1024 / 1024).toFixed(2)} GB/${(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)} GB
 ┃ 👑 ᴼʷⁿᵉʳ: *Charleske*
-╰━━━━━━━━━━━━━⬣/
+╰━━━━━━━━━━━━━⬣
 
 ${readMore}
 🛠 *Available Commands* 🛠
-━━━━━━━━━━━━━━━━━━━━/n`;
+━━━━━━━━━━━━━━━━━━━━`;
 
     let menuMsg = ``;
 
@@ -53,7 +53,7 @@ ${readMore}
             const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
             menuMsg += `➤ .${cmd1} ${cmd2}\n`;
         }
-        menuMsg += `━━━━━━━━━━━━━━━━━━━━/n`;
+        menuMsg += `━━━━━━━━━━━━━━━━━━━━`;
     }
 
     menuMsg += `🫦 Go well and recharge! 👍`;
