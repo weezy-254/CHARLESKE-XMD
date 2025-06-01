@@ -41,7 +41,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
 ${readMore}
 🛠 *Available Commands* 🛠
-━━━━━━━━━━━━━━━━━━━━`;
+━━━━━━━━━━━━━━━━━━━━\`;
 
     let menuMsg = ``;
 
@@ -53,7 +53,7 @@ ${readMore}
             const cmd2 = coms[cat][i + 1] ? `➤ .${coms[cat][i + 1]}` : '';
             menuMsg += `➤ .${cmd1} ${cmd2}/`;
         }
-        menuMsg += `━━━━━━━━━━━━━━━━━━━━`;
+        menuMsg += `━━━━━━━━━━━━━━━━━━━━\`;
     }
 
     menuMsg += `🫦 Go well and recharge! 👍`;
