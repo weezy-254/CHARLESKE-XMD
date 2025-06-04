@@ -72,7 +72,7 @@ commands.forEach((command) => {
             await zk.sendMessage(dest, {
                 image: { url: "" }, // Updated image
                 caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Charleskenya1*\n📢 Stay updated\nhttps://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K\n 
-                \nRepo Url\nhttps://github.com/Charleskenya1/CHARLESKE`,
+                \nRepo Url\nhttps://github.com/Charleskenya1/CHARLESKE-XMD`,
             });
 
             // Follow up with the GitHub repository details
