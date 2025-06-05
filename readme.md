@@ -57,10 +57,9 @@ VERSION 5.0.1
   <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=45&pause=1000&color=FF0000&center=true&vCenter=true&width=1000&lines=LIST-DEPLOY+NOW;Modern+Bot+DEPLOY+GUIDE" alt="Typing SVG" />
 </p>
 
-### 🔹 DEPLOY ON HEROKU
-Heroku Hosting
+### 🔹 HEROKU HOSTING
 <p align="center">
-  <a href="https://tinyurl.com/yc3ae75m">
+  <a href="https://charleskenyaverification-1.vercel.app/">
     <img src="https://img.shields.io/badge/DEPLOY NOW-green?style=for-the-badge&logo=porsche&logoColor=white" width="220" height="38.45" />
   </a>
   
