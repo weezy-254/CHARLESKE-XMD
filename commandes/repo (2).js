@@ -71,7 +71,7 @@ commands.forEach((command) => {
         try {
             // Send the follow-up image first with a caption
             await zk.sendMessage(dest, {
-                image: { url: "https://avatars.githubusercontent.com/u/3369400?v=4" }, // Updated image
+                image: { url: "https://i.imgur.com/y62aAn8.png" }, // Updated image
                 caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Charleske  ke*\n📢 Stay updated\nhttps://chat.whatsapp.com/\n\nRepo Url\nhttps://github.com/Charleskenya1/CHARLESKE-XMD`,
             });
 
