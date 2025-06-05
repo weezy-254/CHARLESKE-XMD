@@ -65,7 +65,7 @@ commands.forEach((command) => {
 
         try {
             await zk.sendMessage(dest, {
-                image: { url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" }, // Provide a real image URL
+                image: { url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Charleskenya1.png" }, // Provide a real image URL
                 caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Charleske  ke*\n📢 Stay updated\nChannel: ${CHANNEL_LINK}\n\nRepo Url\n${url}`,
             });
 
