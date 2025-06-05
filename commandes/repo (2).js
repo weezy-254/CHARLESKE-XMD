@@ -3,7 +3,7 @@ const moment = require("moment-timezone");
 const { zokou } = require(__dirname + "/../framework/zokou");
 
 // Add your channel link or JID here
-const CHANNEL_LINK = "Follow the CHARLESKE-XMD channel on WhatsApp: https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K"; // Example for Telegram
+const CHANNEL_LINK = "Follow the CHARLESKE-XMD channel on WhatsApp: 120363351653122969@newsletter"; // Example for Telegram
 // const CHANNEL_JID = "120363351653122969@newsletter"; // Example for WhatsApp JID
 
 const formatNumber = (num) => num.toLocaleString();
