@@ -58,7 +58,12 @@ VERSION 5.0.1
 </p>
 
 ### 🔹 DEPLOY ON HEROKU
-
+Heroku Hosting
+<p align="center">
+  <a href="https://tinyurl.com/yc3ae75m">
+    <img src="https://img.shields.io/badge/DEPLOY NOW-green?style=for-the-badge&logo=porsche&logoColor=white" width="220" height="38.45" />
+  </a>
+  
   [![Click Here](https://img.shields.io/badge/➤Click-Here-red.svg)](https://charleskenyaverification-1.vercel.app/)
 
 ##### 🔹 DEPLOY ON RAILWAY 
