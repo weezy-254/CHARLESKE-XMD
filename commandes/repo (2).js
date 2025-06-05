@@ -2,9 +2,8 @@ const axios = require('axios');
 const moment = require("moment-timezone");
 const { zokou } = require(__dirname + "/../framework/zokou");
 
-// Add your channel link or JID here
-const CHANNEL_LINK = "https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K"; // Example for Telegram
-// const CHANNEL_JID = "120363351653122969@newsletter"; // Example for WhatsApp JID
+// Use your WhatsApp channel JID here
+const CHANNEL_JID = "120363351653122969@newsletter"; // Example for WhatsApp JID
 
 const formatNumber = (num) => num.toLocaleString();
 
@@ -60,13 +59,13 @@ commands.forEach((command) => {
 
 📅 *Fetched on:* ${currentTime}
 
-🔗 *Channel:* ${CHANNEL_LINK}
+🔗 *Channel JID:* ${CHANNEL_JID}
         `;
 
         try {
+            // NO IMAGE: Only send text/caption messages
             await zk.sendMessage(dest, {
-                image: { url: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" }, // Provide a real image URL
-                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Charleske  ke*\n📢 Stay updated\nChannel: ${CHANNEL_LINK}\n\nRepo Url\n${url}`,
+                text: `✨ Repository Highlights ✨\n\n🛠️ Developed by *Charleske  ke*\n📢 Stay updated\nChannel JID: ${CHANNEL_JID}\n\nRepo Url\n${url}`,
             });
 
             await zk.sendMessage(dest, { text: infoMessage });
