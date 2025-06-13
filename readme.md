@@ -71,7 +71,7 @@ VERSION 5.0.1
 ### 🔹 HEROKU HOSTING
 <p align="center">
   <a href="https://charleskexmd-verification-code.vercel.app/">
-    <img src="https://img.shields.io/badge/DEPLOY NOW-blue?style=for-the-badge&logo=porsche&logoColor=white" width="220" height="38.45" />
+    <img src="https://img.shields.io/heroku/DEPLOY NOW-blue?style=for-the-badge&logo=porsche&logoColor=white" width="220" height="38.45" />
   </a> 
 
 ##### 🔹 DEPLOY ON RAILWAY 
