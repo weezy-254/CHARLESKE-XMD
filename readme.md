@@ -77,7 +77,7 @@ VERSION 5.0.1
 ##### 🔹 DEPLOY ON RAILWAY 
 <p align="center">
   <a href="https://railway.com?referralCode=usJR_h">
-    <img src="https://img.shields.io/badge/DEPLOY NOW-railway?style=for-the-badge&logo=porsche&logoColor=white" width="220" height="38.45" />
+    <img src="https://img.shields.io/badge/DEPLOY NOW-railway?style=for-the-badge&logo=railway&logoColor=white" width="220" height="38.45" />
   </a>
   
 ### 🔹 DEPLOY ON OTHER PLATFORMS👇
