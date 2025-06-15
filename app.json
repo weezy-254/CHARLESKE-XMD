@@ -1,5 +1,5 @@
 {
-  "name":"CHARLESKE-XMD",
+  "name":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎𝙆𝙀 𝙓𝙈𝘿",
   "description":"Best whatsapp bot💥 developed by Charles ke🇰🇪",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
@@ -58,7 +58,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝐂𝐇𝐀𝐑𝐋𝐄𝐒𝐊𝐄-VMD",
+      "value":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎𝙆𝙀 𝙓𝙈𝘿",
       "required":false
 
     } ,
