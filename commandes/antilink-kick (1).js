@@ -1,4 +1,4 @@
-const { cmd } = require('../command');
+const { cmd } = require('..framwork/command');
 const config = require("../config");
 
 // Anti-Link System
