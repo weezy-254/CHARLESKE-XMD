@@ -1,4 +1,4 @@
-const { cmd } = require('..framwork/command');
+const { cmd } = require('../framework/command');
 const config = require("../config");
 
 // Anti-Link System
@@ -27,31 +27,42 @@ const linkPatterns = [
 ];
 
 cmd({
-  'on': "body"
+  on: "body"
 }, async (conn, m, store, {
   from,
   body,
   sender,
   isGroup,
-  isAdmins,
+  groupAdmins,
   isBotAdmins,
   reply
 }) => {
   try {
-    if (!isGroup || isAdmins || !isBotAdmins) {
-      return;
-    }
+    if (!isGroup) return;
+    if (!isBotAdmins) return; // Bot must be admin
+
+    // groupAdmins is an array of admin IDs, check if sender is admin
+    const isSenderAdmin = groupAdmins && groupAdmins.includes(sender);
+
+    if (isSenderAdmin) return; // Don't kick admins
 
     const containsLink = linkPatterns.some(pattern => pattern.test(body));
-
     if (containsLink && config.ANTI_LINK_KICK === 'true') {
-      await conn.sendMessage(from, { 'delete': m.key }, { 'quoted': m });
-      await conn.sendMessage(from, {
-        'text': `⚠️ Links are not allowed in this group.\n@${sender.split('@')[0]} has been removed. 🚫`,
-        'mentions': [sender]
-      }, { 'quoted': m });
+      // Optional: Delete message (if your lib supports)
+      try {
+        await conn.sendMessage(from, { delete: m.key });
+      } catch (e) {
+        // ignore if can't delete
+      }
 
+      // Kick user
       await conn.groupParticipantsUpdate(from, [sender], "remove");
+
+      // Send warning
+      await conn.sendMessage(from, {
+        text: `⚠️ Links are not allowed in this group.\n@${sender.split('@')[0]} has been removed. 🚫`,
+        mentions: [sender]
+      });
     }
   } catch (error) {
     console.error(error);
